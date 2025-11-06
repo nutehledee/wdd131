@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+    /* Hide hamburger, show full nav */
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        box-shadow: none;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav a {
+        padding: 0.6rem 1rem;
+        border-radius: 6px;
+    }
+
+    /* Wider layout */
+    main {
+        max-width: 1200px;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.8rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 1.5rem;
+    }
+}

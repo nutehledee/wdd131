@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <header>
+        <h2>Temple Album</h2>
+        <button id="hamburgerBtn" class="hamburger" aria-label="Toggle menu">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Explore Sacred Temples</h1>
+        <div class="gallery">
+            <figure>
+                <img src="images/images 1.jpg" alt="Ancient temple structure with stone carvings">
+                <figcaption>Angkor Wat, Cambodia</figcaption>
+            </figure>
+            <figure>
+                <img src="images/image 9.avif" alt="Hindu temple with detailed architecture">
+                <figcaption>Brihadeeswarar Temple, India</figcaption>
+            </figure>
+            <figure>
+                <img src="images/image 8.avif" alt="Zen temple surrounded by nature">
+                <figcaption>Kinkaku-ji, Japan</figcaption>
+            </figure>
+            <figure>
+                <img src="images/images 4.avif" alt="Classical Greek temple columns">
+                <figcaption>Parthenon, Greece</figcaption>
+            </figure>
+            <figure>
+                <img src="images/images 4.jpg" alt="Mayan pyramid temple">
+                <figcaption>Chichen Itza, Mexico</figcaption>
+            </figure>
+            <figure>
+                <img src="images/images 6.avif" alt="Buddhist golden stupa temple">
+                <figcaption>Shwedagon Pagoda, Myanmar</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo-1582510003544-4d00b7f74220.avif" alt="Egyptian sandstone temple">
+                <figcaption>Karnak Temple, Egypt</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo-1603766806347-54cdf3745953.avif" alt="Thai temple with emerald Buddha">
+                <figcaption>Wat Phra Kaew, Thailand</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt-lake-temple.jpg" alt="Lakeside temple at sunset">
+                <figcaption>Machu Picchu Temple, Peru</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Temple Album | Last Modified: <span id="lastmod"></span></p>
+    </footer>
+
+    <script defer src="scripts/temples.js"></script>
+</body>
+</html>
