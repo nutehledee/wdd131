@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria – A Vibrant Nation</title>
+    <link rel="stylesheet" href="css/small.css">
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <!-- HERO: Fixed with your ACTUAL files -->
+<div class="hero">
+    <picture>
+        <!-- Mobile: use a smaller existing photo -->
+        <source media="(max-width: 599px)" srcset="images/images 6.avif">
+        
+        <!-- Desktop: use your big Lagos/Nigeria photo -->
+        <source media="(min-width: 600px)" srcset="images/photo-1582510003544-4d00b7f742...">
+        
+        <!-- Fallback (mobile default) -->
+        <img src="images/z-splash.png" alt="Lagos, Nigeria" loading="eager">
+    </picture>
+</div>
+
+    <main>
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>Nigeria, officially the Federal Republic of Nigeria, is a country in West Africa. It is the most populous country in Africa and the sixth-most populous country in the world. Lagos is the largest city.</p>
+            <p>Bordered by Benin, Chad, Cameroon, and Niger, with coastline on the Gulf of Guinea.</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-icon">
+                <img src="images/z-splash.png" alt="Partly cloudy" class="mobile-only">
+            </div>
+            <div class="weather-details">
+                <p>Current Temperature: <span id="temperature">26&deg;C</span></p>
+                <p>Wind Speed: <span id="windspeed">10 km/h</span></p>
+                <p>Wind Chill: <span id="windchill">N/A</span></p>
+            </div>
+        </section>
+
+        <section class="visits">
+            <h2>Top 3 Places to Visit</h2>
+            <ul>
+                <li>Lagos – Bustling city with beaches and markets.</li>
+                <li>Abuja – Modern capital with parks and monuments.</li>
+                <li>Yankari National Park – Wildlife safaris and hot springs.</li>
+            </ul>
+        </section>
+
+        <section class="gallery">
+    <h2>Gallery</h2>
+
+    <!-- Mobile: only show the first image -->
+    <figure>
+        <img src="images/images 6.avif" alt="Lagos Skyline">
+        <figcaption>Lagos Skyline</figcaption>
+    </figure>
+
+    <!-- Desktop: show the other two (so total 3 in a row) -->
+    <figure class="desktop-only">
+        <img src="images/salt-lake-temple.jpg" alt="Abuja Monument">
+        <figcaption>Abuja Monument</figcaption>
+    </figure>
+
+    <figure class="desktop-only">
+        <img src="images/images 1.jpg" alt="Yankari Wildlife">
+        <figcaption>Yankari Wildlife</figcaption>
+    </figure>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | LEDEE NUTEH BARINEKA | Nigeria</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script defer src="js/scripts.js"></script>
+</body>
+</html>
